@@ -1,0 +1,13 @@
+# 线上配置文件
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://121.40.221.202:3306/zha ngxin_universe'
+    username: root
+    password: !Xt0719071X
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
